@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EasyChromeCustomTabs</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_action_share">Share</string>
+    <string name="menu_item_title">Sample Menu Item</string>
+    <string name="label_url">URL:</string>
+    <string name="default_test_url">http://developer.android.com</string>
+    <string name="label_toobar_color">Toolbar Color</string>
+    <string name="default_toolbar_color">#980e03</string>
+    <string name="label_add_action_button">Add Action Button</string>
+    <string name="label_add_menus">Add Menus</string>
+    <string name="label_show_title">Show Title</string>
+    <string name="label_custom_back_button">Custom back button</string>
+    <string name="label_auto_hide_appbar">Auto-hide AppBar</string>
+    <string name="label_start_custom_tab">Open Custom Tab</string>
+
+</resources>
