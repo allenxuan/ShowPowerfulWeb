@@ -13,5 +13,6 @@
     <string name="label_custom_back_button">Custom back button</string>
     <string name="label_auto_hide_appbar">Auto-hide AppBar</string>
     <string name="label_start_custom_tab">Open Custom Tab</string>
+    <string name="default_website">http://www.baidu.com</string>
 
 </resources>

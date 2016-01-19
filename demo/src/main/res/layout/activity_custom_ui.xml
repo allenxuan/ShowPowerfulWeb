@@ -33,7 +33,7 @@
 
     <EditText
         android:id="@+id/url"
-        android:text="@string/default_test_url"
+        android:text="@string/default_website"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textUri" />

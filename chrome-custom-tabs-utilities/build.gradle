@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/allenxuan/EasyChromeCustomTabs'
     gitUrl = 'https://github.com/allenxuan/EasyChromeCustomTabs.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '0.2.0'
 
     developerId = 'allenxuan'
     developerName = 'Xuanyi Huang'
@@ -34,8 +34,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "0.3.0"
     }
     buildTypes {
         release {
@@ -48,8 +48,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    provided 'com.android.support:customtabs:23.1.1'
+    compile 'com.android.support:customtabs:23.1.1'
+    compile 'com.thefinestartist:finestwebview:1.1.2'
 }
 
 
@@ -115,7 +115,8 @@ task javadoc(type: Javadoc) {
 }
 
 task javadocJar(type: Jar, dependsOn: javadoc) {
-
+    classifier = 'javadoc'
+    from javadoc.destinationDir
 }
 artifacts {
     archives javadocJar
