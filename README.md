@@ -10,8 +10,9 @@ When Chrome custom tabs is not available, it helps you launch the FinestWebView 
 a beautiful and customizable Android Activity that shows web pages within an app.
 
 You can say this library is a hybrid of the following two projects:
-[custom-tabs-client](https://github.com/GoogleChrome/custom-tabs-client)
-[FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)
+
+- [custom-tabs-client](https://github.com/GoogleChrome/custom-tabs-client)
+- [FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)
 
 #Add gradle dependency:
 ---
@@ -107,11 +108,12 @@ public class MyOwnWebviewFallback implements CustomTabActivityHelper.CustomTabFa
     }
 }
 ```
+---
+For more customizations and information, please refer to these documents and code:
 
-#For more customizations and information, please refer to these documents and code:
-[Chrome Custom Tabs](https://developer.chrome.com/multidevice/android/customtabs)
-[custom-tabs-client](https://github.com/GoogleChrome/custom-tabs-client)
-[FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)
+- [Chrome Custom Tabs](https://developer.chrome.com/multidevice/android/customtabs)
+- [custom-tabs-client](https://github.com/GoogleChrome/custom-tabs-client)
+- [FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)
 
 
 
