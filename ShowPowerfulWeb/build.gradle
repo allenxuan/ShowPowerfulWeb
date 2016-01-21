@@ -21,7 +21,7 @@ ext {
     siteUrl = 'https://github.com/allenxuan/ShowPowerfulWeb'
     gitUrl = 'https://github.com/allenxuan/ShowPowerfulWeb.git'
 
-    libraryVersion = '0.4.0'
+    libraryVersion = '0.5.0'
 
     developerId = 'allenxuan'
     developerName = 'Xuanyi Huang'
@@ -42,8 +42,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 4
-        versionName "0.4.0"
+        versionCode 5
+        versionName "0.5.0"
     }
     buildTypes {
         release {
