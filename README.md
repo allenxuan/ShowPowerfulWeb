@@ -116,7 +116,7 @@ CustomTabActivityHelper.openCustomTab(
 ```
 
 
----
+--- 
 For more customizations and information, please refer to these documents and code:
 
 - [Chrome Custom Tabs](https://developer.chrome.com/multidevice/android/customtabs)
