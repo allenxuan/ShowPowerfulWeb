@@ -1,4 +1,4 @@
-package com.allenxuan.xuanyihuang.easychromecustomtabs;
+package com.allenxuan.xuanyihuang.showpowerfulwebdemo;
 
 import org.junit.Test;
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EasyChromeCustomTabs</string>
+    <string name="app_name">SPW_Demo</string>
     <string name="action_settings">Settings</string>
     <string name="label_action_share">Share</string>
     <string name="menu_item_title">Sample Menu Item</string>

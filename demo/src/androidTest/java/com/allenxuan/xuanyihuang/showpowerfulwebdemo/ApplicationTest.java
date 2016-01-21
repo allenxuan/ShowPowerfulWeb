@@ -1,4 +1,4 @@
-package com.allenxuan.xuanyihuang.easychromecustomtabs;
+package com.allenxuan.xuanyihuang.showpowerfulwebdemo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

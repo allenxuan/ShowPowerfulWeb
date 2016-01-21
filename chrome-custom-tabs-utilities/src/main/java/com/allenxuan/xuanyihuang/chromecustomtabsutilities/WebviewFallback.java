@@ -18,8 +18,6 @@ import android.net.Uri;
 
 import com.thefinestartist.finestwebview.FinestWebView;
 
-import java.util.HashMap;
-
 /**
  * A Fallback that opens a Webview when Custom Tabs is not available
  */

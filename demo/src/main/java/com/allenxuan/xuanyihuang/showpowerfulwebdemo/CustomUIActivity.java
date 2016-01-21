@@ -1,4 +1,4 @@
-package com.allenxuan.xuanyihuang.easychromecustomtabs;
+package com.allenxuan.xuanyihuang.showpowerfulwebdemo;
 
 import android.app.PendingIntent;
 import android.content.Intent;
