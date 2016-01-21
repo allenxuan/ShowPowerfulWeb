@@ -126,4 +126,5 @@ public class CustomUIActivity extends AppCompatActivity implements View.OnClickL
                 this.getApplicationContext(), ShareBroadcastReceiver.class);
         return PendingIntent.getBroadcast(getApplicationContext(), 0, actionIntent, 0);
     }
+    //
 }
