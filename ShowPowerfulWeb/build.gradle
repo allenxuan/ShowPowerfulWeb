@@ -2,18 +2,26 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'chrome-custom-tabs-utilities'
+    bintrayName = 'ShowPowerfulWeb'
 
     publishedGroupId = 'com.github.allenxuan'
-    libraryName = 'chrome-custom-tabs-utilities'
-    artifact = 'chrome-custom-tabs-utilities'
+    libraryName = 'ShowPowerfulWeb'
+    artifact = 'ShowPowerfulWeb'
 
-    libraryDescription = 'This library contains utilities for conveniently constructing chrome custom tabs on Android platform.'
+    libraryDescription = 'This library is built for gorgeous display of web contents within your application. Specifically, it helps you launch the Chrome custom tabs when it\'s available.When Chrome custom tabs is not available, it helps you launch the FinestWebView which is a beautiful and customizable Android Activity that shows web pages within an app. \n' +
+            '\n' +
+            'You can say this library is a hybrid of the following two projects: \n' +
+            'custom-tabs-client \n' +
+            'FinestWebView-Android \n' +
+            '\n' +
+            'References: https://developer.chrome.com/multidevice/android/customtabs \n' +
+            'https://github.com/GoogleChrome/custom-tabs-client \n' +
+            'https://github.com/TheFinestArtist/FinestWebView-Android'
 
-    siteUrl = 'https://github.com/allenxuan/EasyChromeCustomTabs'
-    gitUrl = 'https://github.com/allenxuan/EasyChromeCustomTabs.git'
+    siteUrl = 'https://github.com/allenxuan/ShowPowerfulWeb'
+    gitUrl = 'https://github.com/allenxuan/ShowPowerfulWeb.git'
 
-    libraryVersion = '0.3.0'
+    libraryVersion = '0.4.0'
 
     developerId = 'allenxuan'
     developerName = 'Xuanyi Huang'
