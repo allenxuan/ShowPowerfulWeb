@@ -1,1 +1,1 @@
-include ':demo', ':ShowPowerfulWeb'
+include ':demo', ':chrome-custom-tabs-utilities'

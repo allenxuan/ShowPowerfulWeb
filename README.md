@@ -97,6 +97,7 @@ public class MyOwnWebviewFallback implements CustomTabActivityHelper.CustomTabFa
             .toolbarScrollFlags(AppBarLayout.LayoutParams.SCROLL_FLAG_SCROLL | AppBarLayout.LayoutParams.SCROLL_FLAG_ENTER_ALWAYS)
             .gradientDivider(false)
             .dividerHeight(2)
+            .statusBarColorRes(R.color.accent);
             .toolbarColorRes(R.color.accent)
             .dividerColorRes(R.color.black_30)
             .iconDefaultColorRes(R.color.accent)
@@ -104,10 +105,16 @@ public class MyOwnWebviewFallback implements CustomTabActivityHelper.CustomTabFa
             .progressBarColorRes(R.color.accent)
             .backPressToClose(false)
             .setCustomAnimations(R.anim.slide_left_in, R.anim.hold, R.anim.hold, R.anim.slide_right_out)
-            .show(uri.toString);
+            .show(uri.toString());
     }
 }
 ```
+then launch it
+```java
+CustomTabActivityHelper.openCustomTab(
+                this, intentBuilder.build(), Uri.parse(url), new MyOwnWebviewFallback());
+```
+
 ---
 For more customizations and information, please refer to these documents and code:
 

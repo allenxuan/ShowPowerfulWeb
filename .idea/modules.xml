@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EasyChromeCustomTabs.iml" filepath="$PROJECT_DIR$/EasyChromeCustomTabs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShowPowerfulWeb/ShowPowerfulWeb.iml" filepath="$PROJECT_DIR$/ShowPowerfulWeb/ShowPowerfulWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chrome-custom-tabs-utilities/chrome-custom-tabs-utilities.iml" filepath="$PROJECT_DIR$/chrome-custom-tabs-utilities/chrome-custom-tabs-utilities.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
     </modules>
   </component>

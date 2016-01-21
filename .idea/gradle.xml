@@ -9,7 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ShowPowerfulWeb" />
+            <option value="$PROJECT_DIR$/chrome-custom-tabs-utilities" />
             <option value="$PROJECT_DIR$/demo" />
           </set>
         </option>

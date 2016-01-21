@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.allenxuan.xuanyihuang.easychromecustomtabs"
+        applicationId "com.allenxuan.xuanyihuang.test2"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
