@@ -11,23 +11,19 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+package com.allenxuan.xuanyihuang.showpowerfulweb;
 
-package com.allenxuan.xuanyihuang.chromecustomtabsutilities;
+import android.app.Activity;
+import android.net.Uri;
 
-import android.support.customtabs.CustomTabsClient;
+import com.thefinestartist.finestwebview.FinestWebView;
 
 /**
- * Callback for events when connecting and disconnecting from Custom Tabs Service.
+ * A Fallback that opens a Webview when Custom Tabs is not available
  */
-public interface ServiceConnectionCallback {
-    /**
-     * Called when the service is connected.
-     * @param client a CustomTabsClient
-     */
-    void onServiceConnected(CustomTabsClient client);
-
-    /**
-     * Called when the service is disconnected.
-     */
-    void onServiceDisconnected();
+public class WebviewFallback implements CustomTabActivityHelper.CustomTabFallback {
+    @Override
+    public void openUri(Activity activity, Uri uri) {
+        new FinestWebView.Builder(activity).show(uri.toString());
+    }
 }

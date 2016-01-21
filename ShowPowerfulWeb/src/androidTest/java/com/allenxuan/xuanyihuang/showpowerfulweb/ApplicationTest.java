@@ -1,4 +1,4 @@
-package com.allenxuan.xuanyihuang.chromecustomtabsutilities;
+package com.allenxuan.xuanyihuang.showpowerfulweb;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

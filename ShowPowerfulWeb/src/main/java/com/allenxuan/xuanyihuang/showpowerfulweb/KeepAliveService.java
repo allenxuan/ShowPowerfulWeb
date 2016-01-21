@@ -11,19 +11,22 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-package com.allenxuan.xuanyihuang.chromecustomtabsutilities;
 
-import android.app.Activity;
-import android.net.Uri;
+package com.allenxuan.xuanyihuang.showpowerfulweb;
 
-import com.thefinestartist.finestwebview.FinestWebView;
+import android.app.Service;
+import android.content.Intent;
+import android.os.Binder;
+import android.os.IBinder;
 
 /**
- * A Fallback that opens a Webview when Custom Tabs is not available
+ * Empty service used by the custom tab to bind to, raising the application's importance.
  */
-public class WebviewFallback implements CustomTabActivityHelper.CustomTabFallback {
+public class KeepAliveService extends Service {
+    private static final Binder sBinder = new Binder();
+
     @Override
-    public void openUri(Activity activity, Uri uri) {
-        new FinestWebView.Builder(activity).show(uri.toString());
+    public IBinder onBind(Intent intent) {
+        return sBinder;
     }
 }

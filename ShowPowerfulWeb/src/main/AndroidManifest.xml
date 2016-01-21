@@ -10,7 +10,7 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="sensor"
             android:theme="@style/FinestWebViewTheme.Light" />
-        <receiver android:name=".ShareBroadcastReceiver" />
+        <receiver android:name="com.allenxuan.xuanyihuang.showpowerfulweb.ShareBroadcastReceiver" />
     </application>
 
 

@@ -14,9 +14,9 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
-import com.allenxuan.xuanyihuang.chromecustomtabsutilities.CustomTabActivityHelper;
-import com.allenxuan.xuanyihuang.chromecustomtabsutilities.ShareBroadcastReceiver;
-import com.allenxuan.xuanyihuang.chromecustomtabsutilities.WebviewFallback;
+import com.allenxuan.xuanyihuang.showpowerfulweb.CustomTabActivityHelper;
+import com.allenxuan.xuanyihuang.showpowerfulweb.ShareBroadcastReceiver;
+import com.allenxuan.xuanyihuang.showpowerfulweb.WebviewFallback;
 
 /**
  * Opens Chrome Custom Tabs with a customized UI.
