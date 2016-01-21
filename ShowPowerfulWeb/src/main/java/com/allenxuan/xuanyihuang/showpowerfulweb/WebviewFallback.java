@@ -25,5 +25,6 @@ public class WebviewFallback implements CustomTabActivityHelper.CustomTabFallbac
     @Override
     public void openUri(Activity activity, Uri uri) {
         new FinestWebView.Builder(activity).show(uri.toString());
+        //
     }
 }
