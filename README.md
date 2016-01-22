@@ -1,6 +1,6 @@
 # Explain
 ---
-This library is built for gorgeous display of web contents within your application. Specifically, it helps
+This library is built for powerful display of web contents within your application. Specifically, it helps
 you launch the Chrome custom tabs when it's available, quote:
 >As of Chrome 45, Chrome custom tabs is now generally available to all users of Chrome, 
 >on all of Chrome's supported Android versions (Jellybean onwards).
@@ -20,7 +20,7 @@ This library is available on both JCenter and MavenCentral, so you just need
 add this to your build.gradle
 ```
 dependencies {
-    compile 'com.github.allenxuan:chrome-custom-tabs-utilities:0.2.0'
+    compile 'com.github.allenxuan:ShowPowerfulWeb:0.6.0'
     }
 ```
 
