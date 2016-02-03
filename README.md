@@ -20,7 +20,7 @@ This library is available on both JCenter and MavenCentral, so you just need
 add this to your build.gradle
 ```
 dependencies {
-    compile 'com.github.allenxuan:ShowPowerfulWeb:0.6.0'
+    compile 'com.github.allenxuan:ShowPowerfulWeb:0.7.0'
     }
 ```
 
