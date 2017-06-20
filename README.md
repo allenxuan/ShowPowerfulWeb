@@ -14,7 +14,7 @@ You can say this library is a hybrid of the following two projects:
 - [custom-tabs-client](https://github.com/GoogleChrome/custom-tabs-client)
 - [FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)
 
-#Add gradle dependency:
+# Add gradle dependency:
 ---
 This library is available on both JCenter and MavenCentral, so you just need
 add this to your build.gradle
@@ -24,13 +24,13 @@ dependencies {
     }
 ```
 
-#Basic Usage:
+# Basic Usage:
 ---
-##Create CustomTabsIntent Builder
+## Create CustomTabsIntent Builder
 ```java
 CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
 ```
-##Customize toolbar color
+## Customize toolbar color
 ```java
 intentBuilder.setToolbarColor(color); //color is an int variable here.
 ```
@@ -38,7 +38,7 @@ or
 ```java
 intentBuilder.setToolbarColor(Color.parseColor(color_string);  // color_string is a string of RGB color code here, e.g., #FF0000 for red.
 ```
-##Set action button
+## Set action button
 ```java
 String shareLabel = getString(R.string.label_action_share);
 Bitmap icon = BitmapFactory.decodeResource(getResources(),
@@ -46,7 +46,7 @@ Bitmap icon = BitmapFactory.decodeResource(getResources(),
 PendingIntent pendingIntent = createPendingIntent();
 intentBuilder.setActionButton(icon, shareLabel, pendingIntent);
 ```
-###createPendingIntent() can be this:
+### createPendingIntent() can be this:
 ```java
 private PendingIntent createPendingIntent() {
         Intent actionIntent = new Intent(
@@ -55,31 +55,31 @@ private PendingIntent createPendingIntent() {
     }
 ```
 or you may write your own createPendingIntent().
-##Add menu item
+## Add menu item
 ```java
 String menuItemTitle = getString(R.string.menu_item_title);
 PendingIntent menuItemPendingIntent = createPendingIntent();
 intentBuilder.addMenuItem(menuItemTitle, menuItemPendingIntent);
 ```
-##Show web title
+## Show web title
 ```java
 intentBuilder.setShowTitle(true);
 ```
-##Enable Url bar hiding
+## Enable Url bar hiding
 ```java
 intentBuilder.enableUrlBarHiding();
 ```
-##Set close button icon
+## Set close button icon
 ```java
  intentBuilder.setCloseButtonIcon(
                     BitmapFactory.decodeResource(getResources(), R.drawable.ic_arrow_back)); //Generally you do not want to decode bitmaps in the UI thread.
 ```
-##Set animations
+## Set animations
 ```java
 intentBuilder.setStartAnimations(this, R.anim.slide_in_right, R.anim.slide_out_left);
 intentBuilder.setExitAnimations(this, android.R.anim.slide_in_left,android.R.anim.slide_out_right);
 ```
-##Launch Chrome custom tabs
+## Launch Chrome custom tabs
 ```java
 CustomTabActivityHelper.openCustomTab(
                 this, intentBuilder.build(), Uri.parse(url), new WebviewFallback());
@@ -123,7 +123,7 @@ For more customizations and information, please refer to these documents and cod
 - [custom-tabs-client](https://github.com/GoogleChrome/custom-tabs-client)
 - [FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)
 
-#License
+# License
 
 ```
 Copyright 2016 Xuanyi Huang
